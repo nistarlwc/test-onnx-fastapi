@@ -1,0 +1,23 @@
+{
+  "GENERAL": {
+    "HOST": "127.0.0.1",
+    "PORT": ["12345"],
+    "MODEL_CONFIG_PATH": "model.json",
+    "CUDA_VISIBLE_DEVICES": "0"
+  },
+
+  "SEGMENT": {
+    "GPU_MEMORY_FRACTION": 1.0,
+    "MODEL_NAME": "ddrnet",
+    "FRONTEND": "NULL",
+    "SEG_SIZE_W": 1280,
+    "SEG_SIZE_H": 1280,
+    "BATCH_SIZE": 1,
+    "CHANNEL": 3,
+    "NUM_CLASSES": 1,
+    "LABEL_NAME_LIST": ["crack"],
+    "SCORE_MAP_THRESH": 0.3,
+    "CENTER_CHECK": false
+  }
+}
+
